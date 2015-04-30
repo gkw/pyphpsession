@@ -1,6 +1,7 @@
 # pyphpsession
 
-How to read session vaiables (string, integer only) 
+How to read session vaiables stored in memcache
+Tested for string and integer only.
 
 * python program can read a value of PHP session variable if we know PHP session id.
 
