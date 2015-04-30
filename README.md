@@ -5,9 +5,7 @@ Tested for string and integer only.
 
 * python program can read a value of PHP session variable if we know PHP session id.
 
-Preconditions:
-
-In php.ini
+* memcache is required in php.ini
   session.save_path="tcp://127.0.0.1:11211";
 
 My testing environment:
