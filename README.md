@@ -15,8 +15,12 @@ My testing environment:
 Example:
 
 import pyphpsession
+
 sess = pyphpsession.phpsession("127.0.0.1:11211")
-d = sess.getSession('muelge4o81g7mue41tfbl2sb22') #session id used in php program
+
+d = sess.getSession('muelge4o81g7mue41tfbl2sb22')
+#session id used in php program
+
 print d
 
 
