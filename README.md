@@ -2,7 +2,7 @@
 
 How to read session vaiables (string, integer only) 
 
-* python program can read PHP session variabled if we know PHP session id.
+* python program can read a value of PHP session variable if we know PHP session id.
 
 Preconditions:
 
