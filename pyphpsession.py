@@ -7,10 +7,8 @@ class phpsession:
     self.__server = server
 
   def __getSessionFromMemcache(self, key):
-    key =str(key)
     mc = memcache.Client( [self.__server if self.__server != "" else "127.0.0.1:11211"])
-    #mc.setSanitizeKeys( False );
-    return mc.get(key)
+    return mc.get(str(key))
 
   def getSession(self, key):
 
